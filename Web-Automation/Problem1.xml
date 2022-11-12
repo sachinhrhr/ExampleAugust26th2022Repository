@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Create">
+	<test name="create username">
+		<classes>
+			<class name="com.sgtesting.testngsenerio.Problem1"></class>
+		</classes>
+	</test>
+</suite>

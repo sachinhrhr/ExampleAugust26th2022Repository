@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="modifytask">
+	<test name="modify custname">
+		<classes>
+			<class name="com.sgtesting.testngsenerio.Problem5"></class>
+		</classes>
+	</test>
+</suite>
