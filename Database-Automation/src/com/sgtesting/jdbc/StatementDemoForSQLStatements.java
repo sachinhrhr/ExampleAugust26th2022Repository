@@ -1,6 +1,7 @@
 package com.sgtesting.jdbc;
 
 import java.sql.Connection;
+
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
@@ -63,7 +64,7 @@ public class StatementDemoForSQLStatements {
 		{
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			conn=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "System", "tiger");
-			
+
 			Statement stmt=conn.createStatement();
 			String strQuery="insert into dept2 values(80,'INSURANCE','BANGALORE')";
 			stmt.executeUpdate(strQuery);

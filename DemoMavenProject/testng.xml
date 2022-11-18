@@ -3,6 +3,11 @@
 	<test name="Users">
 		<classes>
 			<class name="com.sgtesting.tests.testcases.Users"></class>
+			<class name="com.sgtesting.tests.testcases.Problem1"></class>
+			<class name="com.sgtesting.tests.testcases.Problem2"></class>
+			<class name="com.sgtesting.tests.testcases.Problem4"></class>
+			<class name="com.sgtesting.tests.testcases.Problem5"></class>
+			<class name="com.sgtesting.tests.testcases.Problem6"></class>
 		</classes>
 	</test>
 </suite>
