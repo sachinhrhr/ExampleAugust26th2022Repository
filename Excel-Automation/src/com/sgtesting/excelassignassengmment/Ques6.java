@@ -1,6 +1,7 @@
 package com.sgtesting.excelassignassengmment;
 
 import java.io.FileInputStream;
+
 import java.io.FileOutputStream;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
@@ -30,12 +31,12 @@ public class Ques6 {
 			fin=new FileInputStream("E:\\EXCEL\\Ques01.xlsx");
 			wb=new XSSFWorkbook(fin);
 			sh1=wb.getSheet("Sheet1");
-			
+			sh2=wb.getSheet("Sheet2");
 			if(sh2==null)
 			{
 				sh2=wb.createSheet("Sheet2");
 			}
-			sh2=wb.getSheet("Sheet2");
+			
 			int rc=sh1.getPhysicalNumberOfRows();
 			for(int r=0;r<rc;r++)
 			{
